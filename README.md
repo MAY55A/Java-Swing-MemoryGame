@@ -11,6 +11,33 @@ The game features a board composed of cards, tracks scores, and includes images 
 - Difficulty levels depending on number of cards and timer
 - Different sound effects based on the player's actions
 
+## Screenshots
+
+- Main menu
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\main_menu.png" width="500"/>
+
+- Settings
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\settings.png" width="500"/>
+
+- Scores board
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\scores.png" width="500"/>
+
+- Game board, easy mode, LOTR theme
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\gameboard_easy.png" width="500"/>
+
+- Game board, normal mode, Elden Ring theme
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\gameboard_normal.png" width="500"/>
+
+- Game board, hard mode, Dark Souls theme
+
+<img height="400" src="C:\Users\mayss\Desktop\Projects\SwingProject\screenshots\gameboard_hard.png" width="500"/>
+
+
 ## Prerequisites
 
 - Java Development Kit (JDK) 21

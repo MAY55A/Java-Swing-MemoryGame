@@ -13,7 +13,7 @@ public class GameManager {
     int timeLeft;
     int matches = 0;
     int attempts = 0;
-    int score = 100;
+    int score = 1000;
     Card lastSelected;
     public GameManager(Game game) {
         this.game = game;
@@ -24,7 +24,7 @@ public class GameManager {
         timer = new Timer(1000, new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 setTimeLeft(timeLeft - 1);
-                score--;
+                score-= 5;
                 if(timeLeft < 10)
                     game.time.setForeground(Color.RED);
                 if(timeLeft == 0) {
@@ -55,14 +55,14 @@ public class GameManager {
         setTimeLeft((1+game.nbcards)*10);
         setAttempts(0);
         setMatches(0);
-        score = 100;
+        score = 1000;
         game.time.setForeground(Color.BLACK);
         game.startbtn.setText("start game");
     }
     public void selectCard(Card card) {
         if(!card.isFlipped() && selectionEnabled) {
             setAttempts(attempts + 1);
-            score--;
+            score-= 10;
             card.setFlipped(true);
             Sounds.playFlipSound();
             if (lastSelected != null) {
